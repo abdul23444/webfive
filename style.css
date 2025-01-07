@@ -1,0 +1,227 @@
+*{ margin: 0px;padding: 0px;box-sizing: border-box;}
+header{ justify-content: space-between; border-bottom: 1px solid black;}
+header button{ border: 2px solid white; box-shadow: 0px 0px 20px blue;}
+header .h5{ margin-top: 5px;}
+.nav1{ background-color: rgb(255, 200, 80);}
+nav .h5{ margin-top: 5px;}
+.nav1 .nav-item{ margin: 0px 5px;}
+.nav1 .dropdown{margin-top: 3px;}
+.nav1 .nav-link:hover{ color: rgb(0, 21, 255);}
+
+/* first nav bar complete  */
+.for-fix{ position: sticky; top: 0px; z-index: 120; border-bottom: 2px solid black;}
+.nav2 img{  max-width: 150px;}
+.nav2 .nav-item{ font-size: 15px; padding: 0px 12px; transition: 0.5s all;}
+.nav2 .nav-item:hover .nav-link{ color: aliceblue;}
+.nav2 .nav-item:hover{ background-color: rgb(255, 200, 80);}
+.nav2 .menubar:hover { background-color: rgb(255, 200, 80);}
+
+.menubar{padding: 5px 10px; transition: 0.5s all;}
+.menu-bar{width: 30px;height: 4px; background-color: black; margin: 6px 0px; }
+
+
+.nav1 .dropdown .btn:hover{color: rgb(0, 21, 255);}
+.nav1 .dropdown-menu .dropdown-item:hover{ background-color: rgb(255, 200, 80);}
+
+.f-menu{ border: none; }
+
+.for-drop1:hover .drop1{ visibility: visible;  animation:0.5s ad;}
+.drop1{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; visibility: hidden; top: 73%; left: 532px;  z-index: 10; background-color: white;}
+#ul-1 li{ padding: 5px 8px;}
+#ul-1 li:hover{background-color: rgb(255, 200, 80);}
+#ul-1{ list-style-type: none; padding:0%;}
+
+
+.for-drop2:hover .drop2{ display: block; animation:0.5s ad;}
+.drop2{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; display: none; top: 73%; left: 616px;  z-index: 5; background-color: white; }
+
+.for-drop3:hover .drop3{ display: block; animation:0.5s ad;}
+.drop3{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; display: none; top: 73%; left: 693px;  z-index: 5; background-color: white; }
+
+.for-drop4:hover .drop4{ display: block; animation:0.5s ad;}
+.drop4{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; display: none; top: 73%; left: 788px;  z-index: 5; background-color: white; }
+
+.for-drop5:hover .drop5{ display: block; animation:0.5s ad;}
+.drop5{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; display: none; top: 73%; left: 889px;  z-index: 5; background-color: white; }
+
+.for-drop6:hover .drop6{ display: block; animation:0.5s ad;}
+.drop6{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; display: none; top: 73%; left: 988px;  z-index: 5; background-color: white; }
+
+.for-drop7:hover .drop7{ display: block; animation:0.5s ad;}
+.drop7{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; display: none; top: 73%; left: 1070px;  z-index: 5; background-color: white; }
+
+.for-drop8:hover .drop8{ display: block; animation:0.5s ad;}
+.drop8{ box-shadow: 0px 0px 10px black; width: 150px; position: absolute; display: none; top: 73%; left: 1197px;   z-index: 5; background-color: white;}
+
+
+.owl-carousel .item1{ background-image: url(slider1.jpg); background-size: cover; text-align: center; max-width: 100%; }
+.owl-carousel .item2{ background-image: url(slider2.jpg); background-size: cover; text-align: center;}
+.owl-carousel .item3{ background-image: url(slider3.jpg); background-size: cover; text-align: center;}
+.back{ padding: 100px 50px; background-color: rgba(0, 0, 0, 0.5);  height: 600px;}
+
+.content h1{color: white; font-size: 30px; letter-spacing: 5px; padding: 20px 0px;}
+.content .line{ width: 800px;height: 5px; background-color: white; margin: auto;}
+.content h2{color: white; font-size: 70px; letter-spacing: 5px;padding-top: 40PX; }
+.content P{color: white; font-size: 20px; padding: 20px 0px;}
+.content .btn{color: aliceblue; border: 2px solid white; padding: 15px 50px;}
+.content .btn:hover{ background-color: rgb(255, 200, 80);}
+
+
+.box-fd{ background-color: rgb(246, 246, 246);  padding: 40px; box-shadow: 0px 0px 10px rgb(118, 118, 118); }
+.box-fa{ background-color: rgb(246, 246, 246);  padding: 20px; box-shadow: 0px 0px 10px rgb(118, 118, 118); }
+.box-fd i{ font-size: 60px;}
+.card-a .bi-bar-chart-line{ color: rgb(3, 201, 3); }
+.card-b .bi-book{color:rgb(255, 125, 33); }
+.card-c .bi-prescription2{color: rgb(3, 163, 83);}
+.card-d .bi-clipboard2-pulse{ color: rgb(0, 234, 234);}
+.card-e .bi-cup-straw{ color: rgb(225, 225, 2);}
+.card-f .bi-brush{ color: rgb(141, 0, 141);}
+.in{ margin-left:20px ;}
+
+.card-a{ border-right: 5px rgb(3, 201, 3) solid; transition: all 1s ;}
+.card-b{ border-right: 5px rgb(255, 125, 33) solid;transition: all 1s ;}
+.card-c{ border-right: 5px rgb(3, 163, 83) solid;transition: all 1s ;}
+.card-d{ border-right: 5px rgb(0, 234, 234) solid;transition: all 1s ;}
+.card-e{ border-right: 5px rgb(225, 225, 2) solid;transition: all 1s ;}
+.card-f{ border-right: 5px rgb(141, 0, 141) solid;transition: all 1s ;}
+
+
+
+.card-a:hover{ border-right: 15px rgb(0, 180, 0) solid; background-color: rgb(3, 201, 3);}
+.card-a:hover .bi-bar-chart-line{color: white; }
+.card-a:hover .h4{color: white; }
+.card-a:hover p{color: white; }
+
+
+.card-b:hover{ border-right: 15px rgb(192, 91, 19) solid; background-color: rgb(255, 125, 33);}
+.card-b:hover .bi-book{color: white; }
+.card-b:hover .h4{color: white; }
+.card-b:hover p{color: white; }
+
+.card-c:hover{ border-right: 15px rgb(1, 110, 55) solid; background-color: rgb(3, 163, 83);}
+.card-c:hover .bi-prescription2{color: white; }
+.card-c:hover .h4{color: white; }
+.card-c:hover p{color: white; }
+
+.card-d:hover{ border-right: 15px rgb(1, 166, 166) solid; background-color: rgb(0, 234, 234);}
+.card-d:hover .bi-clipboard2-pulse{color: white; }
+.card-d:hover .h4{color: white; }
+.card-d:hover p{color: white; }
+
+.card-e:hover{ border-right: 15px rgb(124, 124, 1) solid; background-color: rgb(225, 225, 2);}
+.card-e:hover .bi-cup-straw{color: white; }
+.card-e:hover .h4{color: white; }
+.card-e:hover p{color: white; }
+
+.card-f:hover{ border-right: 15px rgb(100, 0, 100) solid; background-color: rgb(141, 0, 141);}
+.card-f:hover .bi-brush{color: white; }
+.card-f:hover .h4{color: white; }
+.card-f:hover p{color: white; }
+
+#input-a{ width: 100%; border:2px solid rgb(206, 206, 206); margin-bottom: 30px; padding: 10px 0px 10px 10px;}
+#input-a:hover{ border: 2px solid rgb(255, 200, 80);}
+#drd{ width: 100%; border-radius: 0px; border: 2px solid rgb(206, 206, 206); margin-bottom: 30px;padding: 10px 0px;}
+#drd:hover{ background-color: rgb(255, 200, 80); color: white;}
+#drd-a{ width: 100%;}
+#drd-a .dropdown-item:hover{ background-color: rgb(255, 200, 80); }
+
+#input-a::placeholder{ text-align: center;}
+.btn-submit:hover{ box-shadow: 0px 0px 10px rgb(235, 255, 55);}
+
+.container-fluid{max-width:100% ;}
+.box1-a img{ width: 750px; height: 643px;}
+.box2-a{ padding: 40px; background-color: rgb(238, 238, 238); width: 100%;}
+/* .con-tent{ text-align: center;} */
+.box-content{ width: 100%;  text-align: center; padding: 10px;}
+.box-content i{ background-color: white; padding: 20px 25px; font-size: 30px; border-radius: 100%; margin-bottom: 50px;}
+.box-content #f-shadow1{ background-image: url(intro-1.jpg); width:209px; height: 137px; background-size: cover;}
+.box-content #f-shadow2{ background-image: url(intro-2.jpg); width:209px; height: 137px; background-size: cover;}
+.box-content #f-shadow3{ background-image: url(intro-3.jpg); width:209px; height: 137px; background-size: cover;}
+.shadow{ transition: all 0.5s; visibility: hidden; padding:20px 2px; font-size: 30px; color: rgb(255, 255, 254);}
+.box-content:hover .shadow{ background-color:rgba(255, 200, 80, 0.656); width:209px; height: 137px;  visibility: visible;}
+
+
+
+.box-content:hover i{ box-shadow: 0px 5px 10px black;}
+.box-content i{ transition: all 0.5s;}
+.box-content .h4{ transition: all 0.5s;}
+.box-content:hover .h4{ color: rgb(255, 200, 80);}
+.box-content .btn{  border: 2px solid rgb(238,238,238);}
+.box-content:hover .btn{  border: 2px solid rgb(255, 200, 80);}
+.box-content .btn:hover{ background-color: rgb(255, 200, 80); color: white; box-shadow: 0px 2px 15px rgb(192, 192, 192);    }
+
+.nav-bar{display: flex; justify-content: space-between; line-height: 15px;}
+.nav-bar .h1{ border-bottom: 5px solid black; }
+.nav-bar ul{display: flex; list-style-type: none;}
+.nav-bar ul li{padding: 20px; font-size: 20px; cursor: pointer; transition: 0.5s all;}
+.nav-bar ul li:hover{color: rgb(255, 200, 80);}
+
+.line1{background-color: rgb(255, 200, 80);height: 3px; width: 22px;}
+.line2{background-color: rgb(255, 200, 80); }
+.line3{background-color: rgb(255, 200, 80);}
+.line4{ background-color: rgb(255, 200, 80);}
+.line5{background-color: rgb(255, 200, 80);}
+.line6{ background-color: rgb(255, 200, 80);}
+.line7{ background-color: rgb(255, 200, 80);}
+
+
+
+.nav-bar ul li:hover .line2{ height: 3px; width: 100px;}
+.nav-bar ul li:hover .line3{ height: 3px; width: 94px;}
+.nav-bar ul li:hover .line4 {height: 3px; width: 67px;}
+.nav-bar ul li:hover .line5{ height: 3px; width: 114px;}
+.nav-bar ul li:hover .line6{ height: 3px; width: 117px;}
+.nav-bar ul li:hover .line7{ height: 3px; width: 50px;}
+
+
+.card-one{ transition: 0.5s all;}
+.card-one:hover{box-shadow: 0px 0px 15px black;}
+.card-one h4 a{ color: rgb(255, 200, 80); text-decoration: none;}
+.mid:hover{ background-color: rgb(255, 200, 80); color: aliceblue;}
+
+
+#ph-1{ height: 309px;}
+.backs{ background-image: url(counter-bg.png);  padding: 20px; background-color: rgba(0, 0, 0, 0.818);}
+
+.b-l{ border-right: 5px solid white; text-align: center;}
+.b-l i{ color: white; font-size: 70px;}
+.b-l .h2{ color: white; }
+.b-l .h4{ color: white; }
+.card-123{ border: 1px solid gainsboro; transition: 0.5s all ;}
+.card-123:hover{ box-shadow: 0px 0px 10px black; }
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+    
+}
+
+
+@media(min-width:467px) and (max-width:767){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes ad {
+    from { transform:translatey(10px)}
+    to{transform: translateY(0px);}
+    
+}
+
